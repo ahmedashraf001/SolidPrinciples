@@ -26,31 +26,30 @@ public class Invoice
 
 # Follow SRP : 
 ```c#
-public class Invoice
-{
+ 
 	public class InvoiceCreation
 	{
 		public void GenerateInvoice()
 		{
 		}
 	}
-
+	
 	public class InvoicePrint
 	{
 		public void PrintInvoice()
 		{
 		}
-
+	
 	}
-
+	
 	public class InvoiceSaving
 	{
 		public void SaveToDatabase()
 		{
 		}
 	}
-
-
+	
+	
 	public class EmailSending
 	{
 		public void InvoiceEmail(string email , Invoice invoice)
@@ -58,7 +57,7 @@ public class Invoice
 		}
 	}
 	
-}
+
 ```	
 
 
